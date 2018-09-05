@@ -21,12 +21,12 @@ public class ProduitApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 
-////		produitRepository.save(new Produit("Livre", 50, 20));
-////		produitRepository.save(new Produit("Stylo", 29, 3));
-////		produitRepository.save(new Produit("Crayon", 80, 1));
+//		produitRepository.save(new Produit("Livre", 50, 20));
+//		produitRepository.save(new Produit("Stylo", 29, 3));
+//		produitRepository.save(new Produit("Crayon", 80, 1));
 //		
-//		Role roleUser = new Role("ROLE_USER");
-//		Role roleAdmin = new Role("ROLE_ADMIN");
+//		Role roleUser = new Role(RoleEnum.ROLE_USER);
+//		Role roleAdmin = new Role(RoleEnum.ROLE_ADMIN);
 //		
 //		roleRepository.save(roleUser);
 //		roleRepository.save(roleAdmin);

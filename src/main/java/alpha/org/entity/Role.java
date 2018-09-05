@@ -6,6 +6,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import alpha.org.util.RoleEnum;
+
 @Entity
 public class Role {
 
@@ -17,9 +19,9 @@ public class Role {
 	public Role() {
 		super();
 	}
-	public Role(String name) {
+	public Role(RoleEnum role) {
 		super();
-		this.name = name;
+		this.name = role.getName();
 	}
 	public Long getId() {
 		return id;
